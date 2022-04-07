@@ -29,7 +29,7 @@ function postit(){
     var squareElement = document.createElement('div');
     squareElement.setAttribute('id','square')
     
-    var texts = document.createTextNode(inputElement.value*5);
+    var texts = document.createTextNode(inputElement.value);
     squareElement.appendChild(texts);
     
     //Estilizando o post it
