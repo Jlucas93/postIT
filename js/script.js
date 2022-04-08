@@ -29,8 +29,7 @@ function postit(){
     var squareElement = document.createElement('div');
     squareElement.setAttribute('id','square')
     
-    var texts = document.createTextNode(inputElement.value);
-    squareElement.appendChild(texts);
+    squareElement.innerText = inputElement.value
     
     //Estilizando o post it
     squareElement.style.width = '200px';
